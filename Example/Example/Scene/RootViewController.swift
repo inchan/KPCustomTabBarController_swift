@@ -39,9 +39,9 @@ extension RootViewController {
     // Open
     func openMenu() {
         
-        let moveDistance = self.view.frame.width * 0.7 // 70%
+        let y = self.view.frame.width * 0.7 // 70%
         
-        self.tabBarViewLeftConstraint?.constant = moveDistance
+        self.tabBarViewLeftConstraint?.constant = y
         UIView.animate(withDuration: 0.25) {  self.view.layoutIfNeeded() }
     }
     
