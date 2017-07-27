@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CQG-aR-CfT" customClass="KPCustomTabBarView" customModule="Example" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pKw-hh-XEc">
+                    <rect key="frame" x="0.0" y="0.0" width="94" height="50"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="17"/>
+                    <state key="normal" image="btn_home_d" backgroundImage="00menu_bg">
+                        <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="selected" image="btn_home_a" backgroundImage="00menu_bg">
+                        <color key="titleColor" red="0.31372549020000001" green="0.41568627450000001" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnActionsWithSender:" destination="CQG-aR-CfT" eventType="touchUpInside" id="1NI-ff-tTG"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aoE-aC-Ep3">
+                    <rect key="frame" x="94" y="0.0" width="93.5" height="50"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="17"/>
+                    <state key="normal" image="btn_besty_d" backgroundImage="00menu_bg">
+                        <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="selected" image="btn_besty_a" backgroundImage="00menu_bg">
+                        <color key="titleColor" red="0.31372549020000001" green="0.41568627450000001" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnActionsWithSender:" destination="CQG-aR-CfT" eventType="touchUpInside" id="g6X-cG-LrK"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eHs-D0-Ik3">
+                    <rect key="frame" x="187.5" y="0.0" width="94" height="50"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="17"/>
+                    <state key="normal" image="btn_feed_d" backgroundImage="00menu_bg">
+                        <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="selected" image="btn_feed_a" backgroundImage="00menu_bg">
+                        <color key="titleColor" red="0.31372549020000001" green="0.41568627450000001" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnActionsWithSender:" destination="CQG-aR-CfT" eventType="touchUpInside" id="QpX-fa-dpa"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b8B-6u-B2h">
+                    <rect key="frame" x="281.5" y="0.0" width="93.5" height="50"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="17"/>
+                    <state key="normal" image="btn_issue_d" backgroundImage="00menu_bg">
+                        <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="selected" image="btn_issue_a" backgroundImage="00menu_bg">
+                        <color key="titleColor" red="0.31372549020000001" green="0.41568627450000001" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnActionsWithSender:" destination="CQG-aR-CfT" eventType="touchUpInside" id="Wou-eW-Xvm"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="agl-FA-zTx">
+                    <rect key="frame" x="0.0" y="0.0" width="94" height="3"/>
+                    <color key="backgroundColor" red="0.31372549020000001" green="0.41568627450000001" blue="0.86666666670000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="3" id="nAF-CD-r85"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.2666666667" green="0.2666666667" blue="0.2666666667" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="agl-FA-zTx" firstAttribute="top" secondItem="CQG-aR-CfT" secondAttribute="top" id="0Su-ur-jbx"/>
+                <constraint firstItem="b8B-6u-B2h" firstAttribute="top" secondItem="CQG-aR-CfT" secondAttribute="top" id="8LS-Cd-34c"/>
+                <constraint firstItem="eHs-D0-Ik3" firstAttribute="leading" secondItem="aoE-aC-Ep3" secondAttribute="trailing" id="Ada-kE-qn7"/>
+                <constraint firstItem="b8B-6u-B2h" firstAttribute="width" secondItem="pKw-hh-XEc" secondAttribute="width" id="EmA-Ag-uNX"/>
+                <constraint firstAttribute="bottom" secondItem="pKw-hh-XEc" secondAttribute="bottom" id="HeE-XQ-7Va"/>
+                <constraint firstItem="aoE-aC-Ep3" firstAttribute="leading" secondItem="pKw-hh-XEc" secondAttribute="trailing" id="Lqg-di-lVf"/>
+                <constraint firstItem="b8B-6u-B2h" firstAttribute="leading" secondItem="eHs-D0-Ik3" secondAttribute="trailing" id="MkD-PT-ww5"/>
+                <constraint firstItem="pKw-hh-XEc" firstAttribute="leading" secondItem="CQG-aR-CfT" secondAttribute="leading" id="QrB-I1-Ozn"/>
+                <constraint firstItem="eHs-D0-Ik3" firstAttribute="width" secondItem="pKw-hh-XEc" secondAttribute="width" id="S1y-nP-jBJ"/>
+                <constraint firstAttribute="bottom" secondItem="b8B-6u-B2h" secondAttribute="bottom" id="eNR-02-qqi"/>
+                <constraint firstItem="pKw-hh-XEc" firstAttribute="top" secondItem="CQG-aR-CfT" secondAttribute="top" id="fDB-gC-ism"/>
+                <constraint firstAttribute="bottom" secondItem="aoE-aC-Ep3" secondAttribute="bottom" id="hSh-7d-Yui"/>
+                <constraint firstAttribute="trailing" secondItem="b8B-6u-B2h" secondAttribute="trailing" id="jRV-nm-R2H"/>
+                <constraint firstItem="eHs-D0-Ik3" firstAttribute="top" secondItem="CQG-aR-CfT" secondAttribute="top" id="lkt-jV-NzJ"/>
+                <constraint firstItem="aoE-aC-Ep3" firstAttribute="width" secondItem="pKw-hh-XEc" secondAttribute="width" id="rpr-GP-88Q"/>
+                <constraint firstAttribute="width" constant="375" id="tkc-Fd-TsE"/>
+                <constraint firstItem="aoE-aC-Ep3" firstAttribute="top" secondItem="CQG-aR-CfT" secondAttribute="top" id="ubQ-yt-C15"/>
+                <constraint firstAttribute="bottom" secondItem="eHs-D0-Ik3" secondAttribute="bottom" id="xXK-Dw-h6W"/>
+                <constraint firstAttribute="height" constant="50" id="xj6-en-swb"/>
+                <constraint firstItem="agl-FA-zTx" firstAttribute="leading" secondItem="CQG-aR-CfT" secondAttribute="leading" id="zC6-7c-Rf2"/>
+                <constraint firstItem="agl-FA-zTx" firstAttribute="width" secondItem="pKw-hh-XEc" secondAttribute="width" id="zwK-Pi-JsO"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="leftViewHighlighted" destination="zC6-7c-Rf2" id="Km4-xa-8fa"/>
+                <outlet property="viewHighlighted" destination="agl-FA-zTx" id="ldl-37-iOb"/>
+                <outlet property="widthConstraint" destination="tkc-Fd-TsE" id="out-Lw-fmf"/>
+                <outletCollection property="btns" destination="pKw-hh-XEc" collectionClass="NSMutableArray" id="5q7-1L-icO"/>
+                <outletCollection property="btns" destination="aoE-aC-Ep3" collectionClass="NSMutableArray" id="ouA-kC-E3u"/>
+                <outletCollection property="btns" destination="eHs-D0-Ik3" collectionClass="NSMutableArray" id="Dc3-w3-D5z"/>
+                <outletCollection property="btns" destination="b8B-6u-B2h" collectionClass="NSMutableArray" id="ZBn-XD-NSE"/>
+            </connections>
+            <point key="canvasLocation" x="-100" y="42"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="00menu_bg" width="50" height="50"/>
+        <image name="btn_besty_a" width="36" height="36"/>
+        <image name="btn_besty_d" width="36" height="36"/>
+        <image name="btn_feed_a" width="36" height="36"/>
+        <image name="btn_feed_d" width="36" height="36"/>
+        <image name="btn_home_a" width="36" height="36"/>
+        <image name="btn_home_d" width="36" height="36"/>
+        <image name="btn_issue_a" width="36" height="36"/>
+        <image name="btn_issue_d" width="36" height="36"/>
+    </resources>
+</document>
