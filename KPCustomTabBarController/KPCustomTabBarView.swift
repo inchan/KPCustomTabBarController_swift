@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class KPCustomTabBarView: UIView {
+public class KPCustomTabBarView: UIView {
  
     @IBOutlet var widthConstraint: NSLayoutConstraint?
     

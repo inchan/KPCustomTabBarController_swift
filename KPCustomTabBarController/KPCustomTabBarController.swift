@@ -15,7 +15,7 @@ var kTabBarHeight: CGFloat = 50// Input the height we want to set for Tabbar her
 typealias KPTabActionHandler = ( _ selectedTag: Int) -> Void
 
 
-class KPCustomTabBarController: UITabBarController {
+public class KPCustomTabBarController: UITabBarController {
     
     open var tabBarView: KPCustomTabBarView? = nil
     
@@ -41,14 +41,14 @@ class KPCustomTabBarController: UITabBarController {
     
     // MARK: ViewController LifeCycle
     
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         
         self.displayCustomTabBar()
         
     }
     
-    override func viewDidLayoutSubviews() {
+    override public func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
         self.updateCustomTabBarFrame()
@@ -82,7 +82,7 @@ class KPCustomTabBarController: UITabBarController {
     }
     
     // MARK: Tab Button Pressed Handler
-    open func tabActionHandler(_ handler : KPTabActionHandler? = nil) {
+    func tabActionHandler(_ handler : KPTabActionHandler? = nil) {
         self.tabActionHandler = handler
     }
 
