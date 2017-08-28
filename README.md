@@ -35,7 +35,7 @@ end
 Then, run the following command:
 
 ```bash
-$ pod install
+$ pod install or $ pod update
 ```
 
 
