@@ -28,7 +28,7 @@ To integrate KPCustomTabBarController_swift into your Xcode project using CocoaP
 platform :ios, '8.0'
 
 target 'TargetName' do
-pod 'KPCustomTabBarController_swift', '~> 3.0'
+pod 'KPCustomTabBarController_swift'
 end
 ```
 
